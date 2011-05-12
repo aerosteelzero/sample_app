@@ -1,7 +1,9 @@
-1305231278
+1305233227
 Application	D:/RailsInstaller/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	D:/RailsInstaller/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	D:/RailsInstaller/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+PagesController	D:/RailsInstaller/rails_projects/sample_app/app/controllers/pages_controller.rb	class PagesController 
+PagesHelper	D:/RailsInstaller/rails_projects/sample_app/app/helpers/pages_helper.rb	module PagesHelper
 SampleApp	D:/RailsInstaller/rails_projects/sample_app/config/application.rb	module SampleApp
 Str	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function Str(key, holder, stack)
 Type	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function Type(o)
@@ -27,6 +29,7 @@ clone	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.j
 collect	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function collect(iterator, context)
 compact	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function compact()
 concat	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function concat()
+contact	D:/RailsInstaller/rails_projects/sample_app/app/controllers/pages_controller.rb	  def contact
 copy	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function copy(methods, destination, onlyIfAbsent)
 create	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function create()
 cssNameFor	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function cssNameFor(key)
@@ -75,6 +78,7 @@ grep	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js
 gsub	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function gsub(pattern, replacement)
 handleMethod	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/rails.js	function handleMethod(element)
 handleRemote	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/rails.js	function handleRemote(element)
+home	D:/RailsInstaller/rails_projects/sample_app/app/controllers/pages_controller.rb	  def home
 inGroupsOf	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function inGroupsOf(number, fillWith)
 include	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function include(object)
 include	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function include(pattern)
