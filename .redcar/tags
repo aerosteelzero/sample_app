@@ -1,4 +1,4 @@
-1305230892
+1305231278
 Application	D:/RailsInstaller/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	D:/RailsInstaller/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	D:/RailsInstaller/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
