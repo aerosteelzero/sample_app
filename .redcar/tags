@@ -1,4 +1,4 @@
-1305573807
+1305575117
 Application	D:/RailsInstaller/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	D:/RailsInstaller/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	D:/RailsInstaller/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
@@ -7,6 +7,8 @@ PagesHelper	D:/RailsInstaller/rails_projects/sample_app/app/helpers/pages_helper
 SampleApp	D:/RailsInstaller/rails_projects/sample_app/config/application.rb	module SampleApp
 Str	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function Str(key, holder, stack)
 Type	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function Type(o)
+UsersController	D:/RailsInstaller/rails_projects/sample_app/app/controllers/users_controller.rb	class UsersController 
+UsersHelper	D:/RailsInstaller/rails_projects/sample_app/app/helpers/users_helper.rb	module UsersHelper
 about	D:/RailsInstaller/rails_projects/sample_app/app/controllers/pages_controller.rb	  def about
 abs	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function abs()
 absolutize	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function absolutize(element)
@@ -129,6 +131,7 @@ merge	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.j
 merge	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function merge(object)
 methodize	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function methodize()
 min	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function min(iterator, context)
+new	D:/RailsInstaller/rails_projects/sample_app/app/controllers/users_controller.rb	  def new
 observe	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function observe(element, eventName, handler)
 on	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function on(element, eventName, selector, callback)
 parseColor	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/effects.js	function parseColor(color)
