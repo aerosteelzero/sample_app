@@ -1,12 +1,15 @@
-1305575117
+1305899324
+AddEmailUniquenessIndex	D:/RailsInstaller/rails_projects/sample_app/db/migrate/20110520130706_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 Application	D:/RailsInstaller/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	D:/RailsInstaller/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	D:/RailsInstaller/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+CreateUsers	D:/RailsInstaller/rails_projects/sample_app/db/migrate/20110519201800_create_users.rb	class CreateUsers 
 PagesController	D:/RailsInstaller/rails_projects/sample_app/app/controllers/pages_controller.rb	class PagesController 
 PagesHelper	D:/RailsInstaller/rails_projects/sample_app/app/helpers/pages_helper.rb	module PagesHelper
 SampleApp	D:/RailsInstaller/rails_projects/sample_app/config/application.rb	module SampleApp
 Str	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function Str(key, holder, stack)
 Type	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function Type(o)
+User	D:/RailsInstaller/rails_projects/sample_app/app/models/user.rb	class User 
 UsersController	D:/RailsInstaller/rails_projects/sample_app/app/controllers/users_controller.rb	class UsersController 
 UsersHelper	D:/RailsInstaller/rails_projects/sample_app/app/helpers/users_helper.rb	module UsersHelper
 about	D:/RailsInstaller/rails_projects/sample_app/app/controllers/pages_controller.rb	  def about
@@ -47,6 +50,8 @@ detect	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.
 dirCheck	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function dirCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
 dirNodeCheck	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function dirNodeCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
 dispatch	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/effects.js	function dispatch(effect, eventName)
+down	D:/RailsInstaller/rails_projects/sample_app/db/migrate/20110519201800_create_users.rb	  def self.down
+down	D:/RailsInstaller/rails_projects/sample_app/db/migrate/20110520130706_add_email_uniqueness_index.rb	  def self.down
 each	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function each(iterator)
 each	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function each(iterator, context)
 eachSlice	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
@@ -123,6 +128,7 @@ keys	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js
 klass	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function klass()
 last	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function last()
 lastIndexOf	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function lastIndexOf(item, i)
+logo	D:/RailsInstaller/rails_projects/sample_app/app/helpers/application_helper.rb	  def logo
 match	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function match()
 match	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function match(element, selector)
 max	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function max(iterator, context)
@@ -153,6 +159,7 @@ scan	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js
 select	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function select()
 select	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function select(selector, scope)
 set	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function set(key, value)
+show	D:/RailsInstaller/rails_projects/sample_app/app/controllers/users_controller.rb	  def show
 size	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function size()
 size	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function size()
 sortBy	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function sortBy(iterator, context)
@@ -192,6 +199,8 @@ unescapeHTML	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prot
 unfilterJSON	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function unfilterJSON(filter)
 uniq	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function uniq(sorted)
 unset	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function unset(key)
+up	D:/RailsInstaller/rails_projects/sample_app/db/migrate/20110519201800_create_users.rb	  def self.up
+up	D:/RailsInstaller/rails_projects/sample_app/db/migrate/20110520130706_add_email_uniqueness_index.rb	  def self.up
 update	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function update(array, args)
 update	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function update(element, content)
 update	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function update(object)
