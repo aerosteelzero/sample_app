@@ -1,5 +1,7 @@
-1305899324
+1306504666
 AddEmailUniquenessIndex	D:/RailsInstaller/rails_projects/sample_app/db/migrate/20110520130706_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
+AddPasswordToUsers	D:/RailsInstaller/rails_projects/sample_app/db/migrate/20110523192853_add_password_to_users.rb	class AddPasswordToUsers 
+AddSaltToUsers	D:/RailsInstaller/rails_projects/sample_app/db/migrate/20110526161318_add_salt_to_users.rb	class AddSaltToUsers 
 Application	D:/RailsInstaller/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	D:/RailsInstaller/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	D:/RailsInstaller/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
@@ -20,6 +22,7 @@ addText	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/controls.
 all	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function all(iterator, context)
 any	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function any(iterator, context)
 argumentNames	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function argumentNames()
+authenitcate	D:/RailsInstaller/rails_projects/sample_app/app/models/user.rb	  def self.authenitcate(email, submitted_password)
 bind	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function bind(context)
 bindAsEventListener	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function bindAsEventListener(context)
 blank	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function blank()
@@ -52,11 +55,15 @@ dirNodeCheck	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prot
 dispatch	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/effects.js	function dispatch(effect, eventName)
 down	D:/RailsInstaller/rails_projects/sample_app/db/migrate/20110519201800_create_users.rb	  def self.down
 down	D:/RailsInstaller/rails_projects/sample_app/db/migrate/20110520130706_add_email_uniqueness_index.rb	  def self.down
+down	D:/RailsInstaller/rails_projects/sample_app/db/migrate/20110523192853_add_password_to_users.rb	  def self.down
+down	D:/RailsInstaller/rails_projects/sample_app/db/migrate/20110526161318_add_salt_to_users.rb	  def self.down
 each	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function each(iterator)
 each	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function each(iterator, context)
 eachSlice	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
 element	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function element(event)
 empty	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function empty()
+encrypt	D:/RailsInstaller/rails_projects/sample_app/app/models/user.rb	    def encrypt(string)
+encrypt_password	D:/RailsInstaller/rails_projects/sample_app/app/models/user.rb	    def encrypt_password
 endsWith	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function endsWith(pattern)
 escapeHTML	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function escapeHTML()
 evalJSON	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function evalJSON(sanitize)
@@ -86,6 +93,7 @@ grep	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js
 gsub	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function gsub(pattern, replacement)
 handleMethod	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/rails.js	function handleMethod(element)
 handleRemote	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/rails.js	function handleRemote(element)
+has_password?	D:/RailsInstaller/rails_projects/sample_app/app/models/user.rb	  def has_password?(submitted_password)
 help	D:/RailsInstaller/rails_projects/sample_app/app/controllers/pages_controller.rb	  def help
 home	D:/RailsInstaller/rails_projects/sample_app/app/controllers/pages_controller.rb	  def home
 inGroupsOf	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function inGroupsOf(number, fillWith)
@@ -129,6 +137,7 @@ klass	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.j
 last	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function last()
 lastIndexOf	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function lastIndexOf(item, i)
 logo	D:/RailsInstaller/rails_projects/sample_app/app/helpers/application_helper.rb	  def logo
+make_salt	D:/RailsInstaller/rails_projects/sample_app/app/models/user.rb	    def make_salt
 match	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function match()
 match	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function match(element, selector)
 max	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function max(iterator, context)
@@ -143,6 +152,7 @@ on	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	f
 parseColor	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/effects.js	function parseColor(color)
 parseJSON	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function parseJSON()
 partition	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function partition(iterator, context)
+password	D:/RailsInstaller/rails_projects/sample_app/app/models/user.rb	  attr_accessor :password
 pluck	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function pluck(property)
 pointer	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function pointer(event)
 pointerX	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function pointerX(event)
@@ -156,6 +166,7 @@ relativize	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/protot
 reverse	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function reverse(inline)
 round	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function round()
 scan	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function scan(pattern, iterator)
+secure_hash	D:/RailsInstaller/rails_projects/sample_app/app/models/user.rb	    def secure_hash(string)
 select	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function select()
 select	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function select(selector, scope)
 set	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function set(key, value)
@@ -201,6 +212,8 @@ uniq	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js
 unset	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function unset(key)
 up	D:/RailsInstaller/rails_projects/sample_app/db/migrate/20110519201800_create_users.rb	  def self.up
 up	D:/RailsInstaller/rails_projects/sample_app/db/migrate/20110520130706_add_email_uniqueness_index.rb	  def self.up
+up	D:/RailsInstaller/rails_projects/sample_app/db/migrate/20110523192853_add_password_to_users.rb	  def self.up
+up	D:/RailsInstaller/rails_projects/sample_app/db/migrate/20110526161318_add_salt_to_users.rb	  def self.up
 update	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function update(array, args)
 update	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function update(element, content)
 update	D:/RailsInstaller/rails_projects/sample_app/public/javascripts/prototype.js	function update(object)
